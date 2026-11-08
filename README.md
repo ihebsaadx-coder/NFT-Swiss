@@ -73,12 +73,3 @@ Open [http://localhost:3000](http://localhost:3000) and connect MetaMask. Confir
 | `migrations/` | Truffle deployment scripts |
 | `test/` | Smart contract tests |
 
-## Troubleshooting
-
-- **The app says the contracts are missing or the network is incorrect:** Make sure Ganache is running, MetaMask is connected to its network, and you deployed the contracts with the command above.
-- **MetaMask does not connect:** Install or unlock the MetaMask extension, then refresh the app and approve the connection request.
-- **A transaction fails:** Confirm MetaMask is using a Ganache test account with test funds and that the local blockchain is still running.
-
-## Security
-
-The Truffle configuration currently includes a hard-coded wallet recovery phrase. Treat it as compromised: do not use that wallet or phrase, and remove the secret before publishing or deploying this project. Never commit wallet recovery phrases, private keys, or API keys.
