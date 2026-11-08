@@ -24,7 +24,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const infuraKey = "put your own api key in here"
 
 
-const mnemonic = 'achieve cloud fragile labor biology festival fossil aware harbor man firm word'
+const mnemonic = 'put your passkey phrase  here'
 
 module.exports = {
   /**
